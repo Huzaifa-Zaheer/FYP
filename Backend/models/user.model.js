@@ -29,6 +29,7 @@ const userSchema = new mongoose.Schema({
     socketId: {
         type: String,
     },
+    avatarUrl: { type: String, default: 'https://via.placeholder.com/150' }
 })
 
 userSchema.methods.generateAuthToken = function () {

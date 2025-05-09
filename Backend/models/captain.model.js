@@ -66,7 +66,8 @@ const captainSchema = new mongoose.Schema({
         lng: {
             type: Number,
         }
-    }
+    },
+    avatarUrl: { type: String, default: 'https://via.placeholder.com/150' }
 })
 
 
