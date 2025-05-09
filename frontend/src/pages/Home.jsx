@@ -199,7 +199,9 @@ const Home = () => {
 
     return (
         <div className='h-screen relative overflow-hidden'>
-            <img className='w-16 absolute left-5 top-5' src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png" alt="" />
+            {/* <img className='w-16 absolute left-5 top-5' src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png" alt="" />
+            <div className='h-screen w-screen'> */}
+            <h1 className='text-2xl font-bold absolute left-5 top-5 text-orange-600'>HomeAssist</h1>
             <div className='h-screen w-screen'>
                 {/* image for temporary use  */}
                 <LiveTracking />
